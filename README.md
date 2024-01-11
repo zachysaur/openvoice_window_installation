@@ -21,3 +21,5 @@ aria2c --version
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/OpenVoice/resolve/main/checkpoints_1226.zip -d C:\Windows\System32\OpenVoice -o checkpoints_1226.zip
 
 pip install webrtcvad
+
+python openvoice_app.py --share
