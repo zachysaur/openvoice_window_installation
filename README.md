@@ -22,4 +22,6 @@ aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/cam
 
 pip install webrtcvad
 
+pip install -q gradio==3.50.2 langid faster-whisper whisper-timestamped unidecode eng-to-ipa pypinyin cn2an
+
 python openvoice_app.py --share
